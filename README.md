@@ -2,7 +2,7 @@
 Kur xml servisinden verileri çekip filtreleme, sıralama seçenekleriyle listeleyen ve istenilen formatlarda export edebilen c# uygulamasıdır.  
 
 --------------------------------------- Özellikler --------------------------------------- 
--Proje .NET Core 3.1 framework ile geliştirildi. 
+--Proje .NET Core 3.1 framework ile geliştirildi. 
 -IIntegration interface'i ile Tcmb, europe xml servislerinden (seçenekler arttırılabilir) kur entegrasyon alt yapısı sağlandı.
 -ICurrencyExport ile export edilmek istenen dosya sistemi ile çıktı alınabilir.
 -Models.Constants.SourceConstants class'ı "internal" access modifiers ile farklı projelere erişimi kapatıldı.
