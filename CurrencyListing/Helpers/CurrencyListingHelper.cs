@@ -37,7 +37,7 @@ namespace CurrencyListing.Helpers
 
                     response.Data = _data;
 
-                    #region Filters
+                    #region Filters, Sorters
 
                     if (currency != null)
                     {
