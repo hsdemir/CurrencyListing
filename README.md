@@ -14,11 +14,11 @@ Kur xml servisinden verileri çekip filtreleme, sıralama seçenekleriyle listel
 - Helpers.CurrencyListingHelper.List metodu içerisinde gelen parametreye göre dinamik OrderBy yapabilmek için, "System.Linq.Dynamic.Core" kütüphanesi kullanıldı.
 
 ## Nelere Dikkat Edildi
-- S Kullanılan class larda mümkün oldukça sadece belli işler/sorumluluklar gerçekleştirildi.
-- O Proje geliştirmeye açık değişikliğe kapalı geliştirilmeye çalışıldı.
-- L Interface'lerde kullanılmayan yada fazla özellik yer almadığı için bu sayede soyut ve somut nesneler yer değiştirebilir. 
-- I Soyut nesneler belli görevlere göre ayrışlırıldı ve sadece kullanılacak işler aktarıldı.
-- D Soyut nesnelerle çalışılarak bağımlılık tersine çevrildi.
+- S - Kullanılan class larda mümkün oldukça sadece belli işler/sorumluluklar gerçekleştirildi.
+- O - Proje geliştirmeye açık değişikliğe kapalı geliştirilmeye çalışıldı.
+- L - Interface'lerde kullanılmayan yada fazla özellik yer almadığı için bu sayede soyut ve somut nesneler yer değiştirebilir. 
+- I - Soyut nesneler belli görevlere göre ayrışlırıldı ve sadece kullanılacak işler aktarıldı.
+- D - Soyut nesnelerle çalışılarak bağımlılık tersine çevrildi.
 - OOP
 
 ## Eklenebilir Geliştirmeler
