@@ -23,4 +23,4 @@ Kur xml servisinden verileri çekip filtreleme, sıralama seçenekleriyle listel
 
 ## Eklenebilir Geliştirmeler
 - Helpers.CurrencyListingHelper.List metodunda gelen parametrelere göre cache key oluşturulup dinamik bir cache yapısı kurularak performans iyileştirilebilir. 
-- Kur xml entegrasyonu içerisine Hedef kur parametresi eklenerek listelenen tüm kurlar hedef kura convert edilerek listelenebilir.
+- Kur xml entegrasyonu içerisine Hedef kur parametresi eklenerek listelenen tüm kurlar hedef kura çevrilerek listelenebilir.
